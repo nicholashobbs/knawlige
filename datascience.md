@@ -166,9 +166,6 @@ p, l, u = torch.lu(x)
 
 ```
 
-https://you.com/search?q=what+are+the+most+important+things+to+know+about+linear+algebra&sharedChatId=5108ac0b-2996-4d52-ac2e-4c32976c763b&tbm=youchat
-
-
 
 
 

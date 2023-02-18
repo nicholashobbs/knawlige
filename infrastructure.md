@@ -130,6 +130,23 @@ docker swarm is a native clustering tool for Docker. It turns a pool of Docker h
 
 # git
 
+```
+git remote add origin git@github.com:nicholashobbs/knawlige.git
+git branch -M main
+git push -u origin main
+
+```
+
+
+## create repo for github
+
+`git init -b main` to initialize a git repo
+
+`git add . && git commit -m "initial commit"`
+
+`gh repo create` to create a repo on github
+
+
 get private email from settings > email
 
 ssh-keygen -t ed25519 -C "email@example.com"
