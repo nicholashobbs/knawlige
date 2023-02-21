@@ -12,5 +12,3 @@ query {
   }
 }
 ```
-# bash
-# powershell
