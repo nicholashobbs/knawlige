@@ -146,6 +146,8 @@ git push -u origin main
 
 `gh repo create` to create a repo on github
 
+git remote add origin git@github.com:nicholashobbs/react-inventory.git
+
 
 get private email from settings > email
 
