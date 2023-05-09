@@ -191,6 +191,36 @@ https://nodejs.org/en/download/
 
 # react
 
+## webpack
+
+`npm install webpack webpack-cli --save-dev` to install webpack and webpack-cli
+
+webpack allows you to use import and export within your code
+
+you can import images directly into javascript files
+
+## storybook
+
+`npx storybook init` to create a new storybook
+
+a story is the rendered state of one ui component
+
+
+
+
+## sass
+
+`npm install sass` to install sass
+
+sass is a css preprocessor that allows you to use variables, nesting, mixins, and other features that don't exist in css
+
+mixins are reusable pieces of css that can be used in multiple places
+
+## create-react-app
+
+`npx create-react-app my-app` to create a new react app
+`
+
 ## JSX
 syntax extension to JavaScript that allows developers to write React components using XML-like syntax. JSX is compiled to JavaScript using Babel
 
@@ -300,6 +330,11 @@ JavaScript representation of the actual DOM improves performance by only re-rend
 used to trigger changes in a component’s state
 ## Imports
 in file importing a component, use `import` to import the component
+
+you can use unpkg.com to import a component from a CDN
+
+`<script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>09-
+`
 
 ```javascript
 import MyComponent from './MyComponent';

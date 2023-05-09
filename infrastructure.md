@@ -3,6 +3,16 @@
 
 The most important concepts in Docker include containers, images, and volumes. A container is a runtime instance of an image, which is a lightweight, stand-alone, executable package of software that includes everything needed to run an application, including the code, runtime, system tools, system libraries, and settings. Lastly, a volume is a directory or file system mount which is used to store data that is not stored in the container image. Together, these concepts form the basis of Docker and enable it to be used for creating and running applications in isolated environments.
 
+In the context of Docker, a service is a group of containers running the same image (application code and dependencies) that perform the same task. Each service is run as a separate container, and it is orchestrated with the other containers for a distributed application. Services can be scaled up or down as demand increases or decreases. Services are defined in a configuration file called a “docker-compose.yml” that defines how the services communicate with each other, how they should be deployed, and the resources they require.
+
+
+
+The docker-compose.yml file located in the .docker/ directory contains configuration settings specific to Docker, such as the version of docker-compose, the base image, container definitions, and port mappings. This file is used by the Docker daemon to build and run the Docker containers.
+
+The compose.yml file, on the other hand, is typically located in the application's root directory and contains more general configuration settings, such as the services and dependencies of the application. This file is used by the docker-compose command to build and run the application.
+
+
+
 ## Docker CLI
 ```
 docker run # Create a container from an image and start it
@@ -20,6 +30,13 @@ docker push # Push an image or a repository to a registry
 docker network create # Create a network
 docker network connect # Connect a container to a network
 ```
+
+to stop all running containers 
+```
+docker stop $(docker ps -a -q)
+```
+
+
 
 ## Dockerfile
 ```Dockerfile
@@ -135,6 +152,11 @@ git remote add origin git@github.com:nicholashobbs/knawlige.git
 git branch -M main
 git push -u origin main
 
+```
+
+to checkout a remote branch
+```
+git fetch origin && git checkout --track origin/branch_name
 ```
 
 

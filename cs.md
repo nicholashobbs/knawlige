@@ -9,6 +9,13 @@ study of space time and resources required by algorithms
 **omega notation** is used to describe the lower bound of the complexity
 **theta notation** is always between omega and big o
 
+
+quadratic complexity in terms of runtime is O(n^2)
+logarithmic complexity in terms of runtime is O(logn)
+linear complexity in terms of runtime is O(n)
+constant complexity in terms of runtime is O(1)
+linearithmic complexity in terms of runtime is O(nlogn)
+
 a sort is **stable** if it preserves the order of equal elements
 a sort is **in-place** if it uses constant space
 a sort is **adaptive** if it takes advantage of the fact that the input is already partially sorted
@@ -181,6 +188,9 @@ The purpose of each directory is to store specific types of data or to provide a
 
 
 # windows commands
+ctrl shift esc opens task manager
+
+
 ## command line
 cmd is for basic commands, powershell is a scripting language for task automation. Powershell has more capabilities, such as the ability to create
 ## cmd cheat sheet
