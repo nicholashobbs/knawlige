@@ -168,6 +168,8 @@ git fetch origin && git checkout --track origin/branch_name
 
 `gh repo create` to create a repo on github
 
+git remote add origin git@github.com:nicholashobbs/react-inventory.git
+
 
 get private email from settings > email
 
